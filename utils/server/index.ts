@@ -37,8 +37,7 @@ export const OpenAIStream = async (
     },
     method: 'POST',
     body: JSON.stringify({
-      //model: model.id,
-      model: 'gpt-4',
+      model: model.id,
       messages: [
         {
           role: 'system',
